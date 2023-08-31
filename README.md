@@ -4,16 +4,16 @@
 #Features
 
 1. This App is responsible for fetching the partner's data from the endpoint
-2. Submitting the best dates to organise partners' summit
+2. Submitting the best dates to organize partners' summit
 
 # How does it calculate the best date?
 
 The date you send in for the country should be the starting date of the two-day period where most partners can make it for both days in a row. In case of multiple dates with the same number of partners, pick the earlier date. If there are no two days in a row when any partners can make it, return null.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Find more about the processing in utils/eventsHelpers.ts
 
 ## Available Scripts for the project to facilitate the development and deployment in the future  
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 In the project directory, you can run:
 
 ### `npm start`
